@@ -40,8 +40,7 @@ steps:
             --platform managed \
             --region ${_REGION} \
             --image asia-northeast3-docker.pkg.dev/${PROJECT_ID}/cloocus-repo/${_SERVICE_NAME} \
-            --tag=${BRANCH_NAME} \
-            --no-traffic
+            --tag=${BRANCH_NAME} 
       
 
   
